@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Painel aurostars</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oxanium:wght@300;400;700&display=swap" rel="stylesheet">
+
+    
+    <link rel="stylesheet" href="./src/css/reset.css" >
+     
+    <link rel="stylesheet" href="./src/css/estilos.css">
+    
+    <link rel="stylesheet" href="./src/css/responsivo.css">
+
+</head>
+
+<body>
+    <header class="cabecalho">
+        <img src="./src/imagens/logo-aurostars.webp" alt="logo-aurostars">
+    </header>
+
+    <main class="selecao-de-personagens">
+        <section class="personagens">
+            <h1 class="titulo"
+            style="font-family: oxanium">Selecione um personagem</h1>
+
+            <ul class="lista-de-personagens">
+
+                <li class="personagem selecionado" id="carolita" data-name = "Carolita Yuuna" data-description = "Olá! Sou a Carolita! 
+                Eu nasci quando um espírito gato se juntou a uma garotinha para salvar a vida dela! Tenho memória de ambos, mas ainda estão meio confusas. 
+                Estou aprendendo aos poucos sobre esse mundo incrível que os humanos vivem... Aliás, será que poderiam me ajudar a descobrir mais sobre esse mundo?
+               ">
+                    <img src="./src/imagens/CARD-ESTRELA-CAROLITA.jpg" alt="Personagem Carolita Yuuna">
+                </li>
+
+                <li class="personagem" id="kuro" data-name = "Kuro Tsugomori" data-description = "Prazer, meu nome é Kuro.
+                Originalmente sou de linhagem Qilin, porém fui exilado da minha vila de nascença e então adotado por um sacerdote da família Tsugomori, que venera e usa a lua como fonte de poder.
+                ">
+                    <img src="./src/imagens/CARD-ESTRELA-KURO.jpg" alt="Personagem  Kuro Tsugomori">
+                </li>
+
+                <li class="personagem" id="meiko" data-name = "Tadashi Meiko" data-description ="Muito prazer a todos.
+                Eu sou Meiko Tadashi, um espírito carneiro, descendente da linhagem Qilin.
+                Eu trabalho como policial, e ao mesmo tempo faço um... trabalho extra, protegendo também o mundo espiritual.">
+                    <img src="./src/imagens/CARD-ESTRELA-MEIKO.jpg" alt="Personagem-Lince Negra">
+                </li>
+
+                <li class="personagem" id="mikorin" data-name = "Mikorin" data-description ="Eu sou a Mikorin, um mico leão dourado mensageiro da macacada!
+                Diretamente do espaço, buscando melhores condições para a população símia!
+                Gosto de macacagens, piadas ácidas, humor duvidoso e muita banana!
+                Não se engane pela minha aparência, tenho resquícios do caos em minha mente... Tá ligado??">
+                    <img src="./src/imagens/CARD-ESTRELA-MIKORIN.jpg" alt="Personagem Mikorin">
+                </li>
+
+                <li class="personagem" id="venith" data-name = "Screaming Venith" data-description ="Eu sou a Screaming Venith (por favor me chame de Veni, eu não sei falar meu nome) e as vezes eu grito!
+                Sou uma garota monstro manticora (é um bicho meio felino meio escorpião, mais precisamente uma SUÇUARANA e escorpião)
+                Gosto de comidas gostosas (em especial pernas), de encher o saco dos meus amigos e ajudar eles as vezes 
+                ">
+                    <img src="./src/imagens/CARD-ESTRELA-VENITH.jpg" alt="Personagem Screaming Venith">
+                </li>
+
+                <li class="personagem" id="yukime"data-name = "Yukime Stella" data-description ="Yukime Stella aqui!
+                Eu sou uma husky siberiana OL (Office Lady), e meu segundo trabalho é fazer lives depois do expediente!
+                Gosto muito de RPG, hambúrguer e de beber com meus casinhas.
+                Sou conhecida por ser velha de espírito, e estou preparada para passar meu vasto conhecimento em anime e minhas action figures para o chat! ">
+                    <img src="./src/imagens/CARD-ESTRELA-YUKIME.jpg" alt="Personagem Yukime Stella">
+                </li>
+
+            </ul>
+        </section>
+        <section class="personagem-selecionado">
+            <img class="personagem-grande" src="./src/imagens/carolita.png"
+                alt="Personagem selecionado">
+
+            <div class="informacoes-personagem">
+                <h2 class="nome-personagem" id="nome-personagem">Carolita Yuuna</h2>
+                <p class="descricao-personagem" id="descricao-personagem">Olá! Sou a Carolita! 
+                    Eu nasci quando um espírito gato se juntou a uma garotinha para salvar a vida dela! Tenho memória de ambos, mas ainda estão meio confusas. 
+                    Estou aprendendo aos poucos sobre esse mundo incrível que os humanos vivem... Aliás, será que poderiam me ajudar a descobrir mais sobre esse mundo?
+                </p>
+            </div>
+        </section>
+    </main>
+
+    <script src="./src/js/index.js"></script>
+
+</body>
+
+</html>
